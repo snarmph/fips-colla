@@ -2,6 +2,11 @@
 # fips-colla
 #
 ---
+exports:
+  modules:
+    colla: .
+  header-dirs:
+    - colla/src
 #   imports:
 #       PROJ-NAME:
 #           git: GIT-URL

@@ -21,7 +21,6 @@ fips_begin_lib(colla)
         http.h        http.c
         cthreads.h    cthreads.c
     )
-
 fips_end_lib()
 
 if (FIPS_WINDOWS)
