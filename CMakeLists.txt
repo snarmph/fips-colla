@@ -26,7 +26,7 @@ fips_end_lib()
 if (FIPS_WINDOWS)
     target_link_libraries(colla ws2_32.lib)
 else()
-        target_link_libraries(colla pthread)
+    target_link_libraries(colla pthread)
 endif()
 
 target_include_directories(colla PUBLIC colla/src)
